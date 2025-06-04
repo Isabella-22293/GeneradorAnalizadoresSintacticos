@@ -1,0 +1,19 @@
+// Tokens para números, identificadores y operadores
+ID          "[a-zA-Z_][a-zA-Z0-9_]*"
+NUMBER      "[0-9]+(\.[0-9]+)?([eE][+-]?[0-9]+)?"
+
+// Operadores y símbolos
+PLUS        "\+"
+MINUS       "-"
+TIMES       "\*"
+DIV         "/"
+ASSIGNOP    ":="
+LT          "<"
+EQ          "="
+
+LPAREN      "\("
+RPAREN      "\)"
+SEMICOLON   ";"
+
+// Espacios y caracteres de control (se reconocen y se guardan como tokens)
+WHITESPACE  "[ \t\n\r]+"
